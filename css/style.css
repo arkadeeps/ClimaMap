@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    min-height: 100vh;
+}
+
+.big-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-size: cover;
+    height: 100vh;
+}
+
+.card {
+    background: #000000a1;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.input-text {
+    border: 1px solid #ffffff;
+    outline: none;
+    padding: 0.4em 1em;
+    margin-right: 1rem;
+    background: #00000059;
+    color: #fff;
+    font-size: 18px;
+    width: 60%;
+    border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content div {
+    text-align: center;
+}
+
+.temperature {
+    margin-right: 2rem;
+}
+
+.temperature h1 {
+    font-size: 3rem;
+}
+
+.temperature h2 {
+    margin: -10px auto 1rem;
+}
+
+.temperature span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.description {
+    margin-left: 2rem;
+}
+
+.description h3,
+.description p {
+    margin-bottom: 0.5rem;
+}
+
+.description h3 {
+    text-transform: capitalize;
+}
+
+.description span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.submit {
+    border: 1px solid #ffffff;
+    outline: none;
+    padding: 0.4em 1em;
+    background: #00000059;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    margin-right: 1rem; /* Add space between submit button and location button */
+}
+
+.submit:hover {
+    background: #7c7c7c70;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 576px) {
+    .big-content {
+        height: 100%;
+    }
+
+    .input-div {
+        margin: 2rem 10px auto;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .temperature {
+        margin: 2rem 0 3rem;
+    }
+
+    .description {
+        margin-left: 0;
+    }
+}
+
+.input-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically in the center */
+    margin: 2rem 0;
+}
+
+.input-text {
+    border: 1px solid #ffffff;
+    outline: none;
+    padding: 0.4em 1em;
+    margin-right: 1rem;
+    background: #00000059;
+    color: #fff;
+    font-size: 18px;
+    width: 60%;
+    border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.submit {
+    border: 1px solid #ffffff;
+    outline: none;
+    padding: 0.4em 1em;
+    background: #00000059;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    margin-right: 1rem; /* Add space between submit button and location button */
+}
+
+.submit:hover {
+    background: #7c7c7c70;
+}
+
+.location-btn {
+    border: 1px solid #ffffff;
+    outline: none;
+    background: #00000059;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    padding: 0.4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-btn img {
+    width: 24px; /* Adjust size as needed */
+    height: auto;
+}
+
+.location-btn:hover {
+    background: #7c7c7c70;
+}
+
